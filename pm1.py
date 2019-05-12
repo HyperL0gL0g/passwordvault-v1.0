@@ -4,8 +4,8 @@ import time
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="1234",
-    database="pm"
+    passwd="1234",#enter your own password here
+    database="pm"# enter your database name here
 )
 print("THIS IS logicinfinite PASSWORD VAULT")
 
